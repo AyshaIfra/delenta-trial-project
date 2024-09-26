@@ -1,0 +1,27 @@
+.navbar {
+    background: #FFFFFF;
+    border-bottom: 1px solid  #EAECF0;
+
+    .toggle-button {
+        background-color: inherit;
+        border: 1px solid #EAECF0;
+        border-radius: 8px;
+    }
+
+    .logo-text {
+        font-family: 'DM Sans';
+        font-size: 36px;
+        font-weight: 700;
+        color:#1F2128;
+    }
+
+    .username {
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        color: #344054;
+    }
+
+}
