@@ -18,7 +18,7 @@
     width: 128px;
     height: 128px;
     border-radius: 50%;
-    top: 150px;
+    top: calc(120px + 2vw);
     position: absolute;
   
     img{
@@ -31,7 +31,7 @@
 
 .greeting-text {
     margin-left: 150px;
-    margin-top: 30px;
+    margin-top: calc(10px + 1vw);
     color:  #101828;
     font-family: 'Inter';
     font-size: 18px;
@@ -43,7 +43,7 @@
 
 @media (min-width: 576px) {
     .greeting-text {
-       margin-top: 20px;
+    //    margin-top: 20px;
        font-size: 30px;
        text-wrap: nowrap;
     }
