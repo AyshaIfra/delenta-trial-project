@@ -1,0 +1,97 @@
+
+.card-1 {
+    border: 1px solid  #B2CCFF;
+    border-radius: 32px;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    height: 13rem;
+}
+
+.card-2 {
+    border: 1px solid #FECDCA;
+    border-radius: 32px;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    height: 12rem;
+}
+
+.card-3 {
+    border: 1px solid  #D9D6FE;
+    border-radius: 32px;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    height: 12rem;
+}
+
+.card-4 {
+    border: 1px solid #FEDF89;
+    border-radius: 32px;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    height: 12rem;
+}
+
+.btn-1 {
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    border: 1px solid  #155EEF;
+    background:  #155EEF;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 32px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+    color:  #FFFFFF;
+    text-wrap: nowrap;
+}
+
+.btn-2 {
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    border: 1px solid  #D0D5DD;
+    width: 100%;
+    height: 28px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    color: #344054;
+}
+
+.count-text {
+    font-family: 'Inter';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color:#101828;
+}
+
+.sub-text {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #344054;
+}
+
+
+.progress-bar {
+
+    ::ng-deep .progress {
+        background:  #EAECF0;
+        height: 8px;
+    }
+
+    ::ng-deep .progress-bar {
+        background: #FEC84B;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .btn-1 {
+      font-size: 13px; 
+    }
+}
+
+

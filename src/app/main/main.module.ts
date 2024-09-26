@@ -9,7 +9,7 @@ import { MainCardsComponent } from './main-cards/main-cards.component';
 import { UpcomingSessionComponent } from './upcoming-session/upcoming-session.component';
 import { ActivitiesComponent } from './activities/activities.component';
 import { MessageCoachComponent } from './message-coach/message-coach.component';
-
+import { NgbModule,NgbCollapseModule,NgbNavModule, NgbProgressbarModule} from "@ng-bootstrap/ng-bootstrap";
 
 @NgModule({
   declarations: [
@@ -23,7 +23,12 @@ import { MessageCoachComponent } from './message-coach/message-coach.component';
   ],
   imports: [
     CommonModule,
-    MainRoutingModule
+    MainRoutingModule,
+    NgbCollapseModule,
+    NgbModule,
+    NgbNavModule,
+    NgbProgressbarModule
+
   ]
 })
 export class MainModule { }
