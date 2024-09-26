@@ -1,0 +1,78 @@
+.activities-box {
+    border: 1px solid #EAECF0;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    border-radius: 32px;
+}
+
+.title {
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color:  #101828;
+}
+
+.view-btn {
+    border: none;
+    background: none;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #475467;
+}
+
+
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+  }
+  
+  .timeline li {
+    position: relative;
+    padding-left: 50px; /* Adjust based on the image size */
+    margin-bottom: 40px; /* Space between list items */
+  }
+  
+  .bullet {
+    width: 40px; /* Adjust the image size */
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .bullet img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+  }
+  
+  .timeline li::before {
+    content: '';
+    position: absolute;
+    left: 19px; /* Position the line in the center of the image */
+    top: 40px; /* Start the line from the bottom of the image */
+    width: 2px;
+    height: 100%;
+    background-color: #007bff; /* Line color */
+  }
+  
+  .timeline li:last-child::before {
+    height: 50%; /* Stop the line halfway for the last bullet */
+  }
+  
+  .timeline li:first-child::before {
+    top: 50%; /* Start the line halfway for the first bullet */
+    height: 50%; /* Stop the line halfway to the next bullet */
+  }
+  
+  .content {
+    padding-left: 15px; /* Space between the bullet and content */
+  }
+  
