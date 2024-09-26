@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class MessageCoachComponent {
 
+  users = [
+    { imageUrl: 'assets/images/message/user1.svg' },
+    { imageUrl: 'assets/images/message/user4.svg' },
+    { imageUrl: 'assets/images/message/user2.svg' },
+    { imageUrl: 'assets/images/message/user3.svg' },
+    { imageUrl: 'assets/images/message/user4.svg' },
+    { imageUrl: 'assets/images/message/user1.svg' },
+    { imageUrl: 'assets/images/message/user1.svg' },
+    { imageUrl: 'assets/images/message/user1.svg' },
+    { imageUrl: 'assets/images/message/user1.svg' },
+    { imageUrl: 'assets/images/message/user1.svg' }
+  ];
+
+  maxVisibleUsers = 5; 
+
 }
